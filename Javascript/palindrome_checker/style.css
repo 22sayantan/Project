@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    box-shadow: none;
+}
+
+.container{
+    height: 300px;
+    width: 400px;
+    margin: 200px 600px;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px gainsboro;
+}
+
+.container input{
+    height: 50px;
+    width: 340px;
+    margin: 50px 26px;
+    border-radius: 7px;
+
+    text-align: right;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.container button{
+    height: 60px;
+    width: 180px;
+
+    border-radius: 7px;
+    margin: 20px 110px;
+
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+
+    background-color: green;
+
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: orangered;
+}

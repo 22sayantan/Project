@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+body header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container{
+    background-color: blanchedalmond;
+    margin: 16px 20px 20px 80vh;
+    padding: 20px 10px 5px 25px;
+    height: 90vh;
+    width: 60vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 20px 20px 20px grey;
+}
+.container input{
+    color: blue;
+    height: 18px;
+    width: 40vh;
+    margin: 5px;
+    border-radius: 6px;
+}
+.container form ul{
+    list-style-type: none;
+}
+
+.container #date{
+    width: 20vh;
+}
+
+.container #file{
+    height: 36px;
+}
+.container #file::file-selector-button{
+    background-color: green;
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container #submit{
+    background-color: green;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    height: 36px;
+    width: 415px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

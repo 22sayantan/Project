@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+.container{
+    height: 650px;
+    width: 400px;
+    margin: 30px 0px 0px 550px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 50px 0px;
+}
+.container ol li{
+    padding: 16px;
+    font-size: 20px;
+    background-color: gainsboro;
+    margin: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.container ol li:nth-child(1):hover{
+    color: blue;
+}
+
+.container ol li:nth-child(2):hover{
+    background-color: yellow;
+}
+
+.container ol li:nth-child(4):hover{
+    font-size: 40px;
+}
+
+.container ol li:nth-child(5){
+    background-color: white;
+    color: white;
+}
+
+.container ol li:nth-child(5):hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.container ol li:nth-child(6):hover{
+    display: none;
+}

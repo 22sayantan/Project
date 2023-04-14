@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.navbar .left{
+    width: 70%;
+    margin: 15px 0 0 16px;
+}
+
+.navbar .right ul{
+    display: flex;
+    width: 30%;
+    list-style-type: none;
+}
+.navbar ul li{
+    cursor: pointer;
+    padding: 16px;
+}
+
+.container .content {
+    height: 45vh;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.container .content .item_1{
+    display: flex;
+    height: 100%;
+    width: 12%;
+}
+
+.container .content .item_1 .item_card{
+    margin-left: 10px;
+}
+.container .content .item_1 img{
+    height: 200px;
+    width: 160px;
+    margin: 10px;
+    background-color: blue;
+}
+
+.container .content .item_1 .item-name{
+    font-size: 16px;
+    color: red;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .content .item_1 .price{
+    color: blue;
+    font-size: 12px;
+    font-family: cursive;
+    margin-left: 10px;
+}
+
+.container .content .item_1 .item-category{
+    color: brown;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+
+.container .content .item_1 .like,.cart{
+    display: inline;
+    cursor: pointer;
+    font-size: 12px;
+    color: gray;
+    font-family: cursive;
+    margin-left: 10px;
+}
+

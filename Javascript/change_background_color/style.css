@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.change{
+    background-color: black;
+    border: 0cap;
+    color: white;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.color{
+    font-family: cursive;
+    font-size: 16px;
+}

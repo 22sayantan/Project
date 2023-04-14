@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0%;
+    box-shadow: none;
+}
+
+.container{
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+}
+.container ul{
+    list-style-type: none;
+}
+.container ul li{
+    height: 6px;
+    width: 80px;
+    background-color:  black;
+    margin: 5px 0px;
+}

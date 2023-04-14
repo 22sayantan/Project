@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    box-shadow: none;
+    background-color: black;
+}
+
+.container{
+    height: 300px;
+    width: 308px;
+    border: 1px solid red;
+    margin: 205px 600px;
+}
+
+.container .btn{
+    height: 100px;
+    width: 100px;
+    margin: 0%;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: cursive;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container .btn:hover{
+    background-color: orangered;
+    color: white;
+}

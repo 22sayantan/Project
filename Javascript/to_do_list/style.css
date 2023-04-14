@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0%;
+    box-shadow: none;
+}
+
+.container{
+    width: 300px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+
+    margin: 20px 600px;
+}
+
+.container .edit{
+    height: 120px;
+    width: auto;
+
+    margin: 30px 10px;
+    border-bottom: 1px solid blue;
+}
+
+.container .edit input{
+    height: 40px;
+    width: 250px;
+    margin: 0px 10px 20px 10px;
+    
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.container .edit button{
+    height: 30px;
+    width: 60px;
+    margin: 0px 10px 20px 30px;
+
+    font-size: 16px;
+    font-family: cursive;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+
+.container .show-list{
+    font-family: cursive;
+}
+
+.container .show-list ul{
+    list-style-type: none;
+}
+
+.container .show-list ul li .btns{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.container .show-list ul li .btns .delete{
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+
+    font-size: 15px;
+    font-family: cursive;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.container .show-list ul li .btns .done{
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+
+    font-size: 15px;
+    font-family: cursive;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+
+    cursor: pointer;
+}

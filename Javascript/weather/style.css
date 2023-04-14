@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding:0%;
+    box-shadow: none;
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    border: 1px solid blue;
+}
+
+.container .header{
+    text-align: center;
+    font-family: cursive;
+
+    text-decoration: underline;
+}
+
+.container .content{
+    display: flex;
+    justify-content: center;
+}
+
+.container .content div{
+    border: 1px solid red;
+    display: grid;
+}
+
+.container .content .time div{
+    margin: 0px 20px 0px 0px ;
+}
+
+.container .content .weather-reprot{
+    margin: 0px 0px 0px 20px;
+}

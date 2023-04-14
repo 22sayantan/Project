@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding:0%;
+    box-shadow: none;
+}
+
+.container{
+    margin: 10px 30px 10px 30px;
+}
+
+.container .header{
+    height: 120px;
+    border-bottom: 1px solid blue;
+}
+
+.container .header .topic{
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+    
+    margin: 10px 0px 20px 0px;
+}
+
+.container .header .sub-topic{
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+    
+    margin: 10px 0px 20px 0px;
+}
+
+.container .content{
+    margin: 20px 0px 0px 200px;
+    border-left: 1px solid brown;
+}
+
+.container .content .question{
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+.container .options ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.container .options ul li{
+    font-size: 16px;
+    font-family: cursive;
+
+    margin: 0px 20px 0px 0px;
+}
+
+.container .options ul li input{
+    cursor: pointer;
+}
