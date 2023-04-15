@@ -10,17 +10,72 @@
 </head>
 <body>
     <nav class="flex-div">
-        <div class="nav-left">
-            <img src="images/menu.png">
-            <img src="images/logo.png">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <img src="images/logo.png" class="logo-icon">
         </div>
-        <div class="nav-middle"></div>
-        <div class="nav-right">
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search here">
+                <img src="images/search.png" class="search-icon">
+            </div>
+            <img src="images/mic.png" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
             <img src="images/upload.png">   
             <img src="images/more.png">
             <img src="images/notification.png">
-            <img src="images/user.png">
+            <img src="images/user.png" class="user-icon">
         </div>
     </nav>
+
+    <!-- --------------sidebar-------------- -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png"><p>Home</p></a>
+            <a href=""><img src="images/explore.png"><p>Explore</p></a>
+            <a href=""><img src="images/subscription.png"><p>Subscription</p></a>
+            <a href=""><img src="images/library.png"><p>Library</p></a>
+            <a href=""><img src="images/hisrory.png"><p>History</p></a>
+            <a href=""><img src="images/playlist.png"><p>Playlist</p></a>
+            <a href=""><img src="images/message.png"><p>Message</p></a>
+            <a href=""><img src="images/show_more.png"><p>Show More</p></a>
+            <hr>
+        </div>
+
+        <div class="subscibed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/user.png"><p>Sayantan Dolui</p></a>
+            <a href=""><img src="images/user.png"><p>Simon Baker</p></a>
+            <a href=""><img src="images/user.png"><p>Tom Hardy</p></a>
+            <a href=""><img src="images/user.png"><p>Megan Ryan</p></a>
+            <a href=""><img src="images/user.png"><p>Cameron Diaz</p></a>
+        </div>
+    </div>
+
+
+
+    <!-- ----------------------Main--------------------- -->
+    <div class="container">
+        <div class="banner">
+            <img src="images/banner.png">
+        </div>
+
+        <div class="list-container">
+            <div class="vid-list">
+                <img src="images/thumbnail_1.png" class="thumbnail">
+                <div class="flex-div">
+                    <img src="images/user.png">
+                    <div class="vid-info">
+                        <a href="">Best channel for Coding learning</a>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
