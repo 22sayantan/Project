@@ -1,35 +1,45 @@
-const Input_data = document.getElementById('input_data');
-const add = document.getElementById('add');
-const reset = document.getElementById('reset');
-const done = document.getElementById('done');
-const delet = document.getElementById('delete');
-const description = document.getElementById('description');
-const my_list = document.getElementById('my_list');
+const inputVal = document.getElementById("input_data");
+const addBtn = document.getElementById("add");
+const list_of_item = document.getElementById("item_list");
 
+addBtn.addEventListener('click',addClick);
 
-add.addEventListener('click',add_item);
-reset.addEventListener('click',myfucntion2);
-done.addEventListener('click',complete);
-delet.addEventListener('click',remove);
+function addClick(){
+    if(inputVal.value === '')
+    {
+        alert('enter a input value');
+    }
+    else
+    {
+        // console.log(inputVal.value);
+        const list = document.createElement("li");
+        list.innerHTML = inputVal.value;
+        list_of_item.appendChild(list);
 
-function add_item(){
-    const data = Input_data.value;
-    description.innerHTML = data;
-    my_list.style.display = 'block';
-    console.log(data);
+        const span = document.createElement('span');
+        span.innerHTML='X';
+        list.appendChild(span);
+    }
+    inputVal.value = '';
+    saveData();
 }
 
-function myfucntion2(){
-    console.log('clicked');
+list_of_item.addEventListener('click',(event) => {
+    if(event.target.tagName === 'LI'){
+        event.target.classList.toggle('checked');
+        saveData();
+    }else if(event.target.tagName === 'SPAN'){
+        event.target.parentElement.remove();
+        saveData();
+    }
+},false);
+
+function saveData(){
+    localStorage.setItem("data",list_of_item.innerHTML);
 }
 
-function complete(){
-    console.log('complete');
-    description.style.textDecoration = 'line-through';
-    description.style.textDecorationColor = 'red';
+function showTask(){
+    list_of_item.innerHTML = localStorage.getItem('data');
 }
 
-function remove(){
-    console.log('remove');
-    my_list.style.display = 'none';
-}
+showTask();
